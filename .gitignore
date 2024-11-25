@@ -39,3 +39,5 @@ spatio_temporal/results/
 temporal/results/
 spatial/results/
 r/results/
+
+.DS_Store

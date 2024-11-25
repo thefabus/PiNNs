@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/src",
+                "/opt/conda/lib/python3.12/site-packages/**/include/**",
+                "/opt/conda/include/**",
+                "/usr/include/**",
+            ],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "${default}",
+        }
+    ],
+    "version": 4
+}

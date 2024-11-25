@@ -1,6 +1,6 @@
 #include "prelesglobals.h"
 #include <pybind11/pybind11.h>
-#include <TH/TH.h>
+#include <torch/torch.h>
 #include <stdio.h>
 
 /* Seasonality model of Mäkelä et al 2004 */

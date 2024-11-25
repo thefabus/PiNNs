@@ -1,0 +1,24 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build C++ Extension",
+            "type": "shell",
+            "command": "python",
+            "args": [
+                "setup.py",
+                "build_ext",
+                "--inplace"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/src"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "detail": "Builds the C++ extension using setup.py"
+        }
+    ]
+}

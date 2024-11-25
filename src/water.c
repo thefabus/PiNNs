@@ -1,6 +1,6 @@
 #include "prelesglobals.h"
 #include <pybind11/pybind11.h>
-#include <TH/TH.h>
+#include <torch/torch.h>
 #include <stdio.h>
 
 /* Estimate Evapotranspiration according to a simple empirical model
